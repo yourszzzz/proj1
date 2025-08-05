@@ -20,6 +20,7 @@ import {
 
 const Login = () => {
   return (
+        <div className="flex items-center w-full justify-center">
     <div className="flex w-full max-w-sm flex-col gap-6">
       <Tabs defaultValue="account">
         <TabsList>
@@ -75,6 +76,7 @@ const Login = () => {
           </Card>
         </TabsContent>
       </Tabs>
+    </div>
     </div>
   )
 }
