@@ -29,7 +29,7 @@ const Login = () => {
         <TabsContent value="Singnup">
           <Card>
             <CardHeader>
-              <CardTitle>Account</CardTitle>
+              <CardTitle>Singnup</CardTitle>
               <CardDescription>
                 Make changes to your account here. Click save when you&apos;re
                 done.
@@ -46,14 +46,14 @@ const Login = () => {
               </div>
             </CardContent>
             <CardFooter>
-              <Button>Save changes</Button>
+              <Button>Singnup</Button>
             </CardFooter>
           </Card>
         </TabsContent>
         <TabsContent value="Login">
           <Card>
             <CardHeader>
-              <CardTitle>Password</CardTitle>
+              <CardTitle>Login</CardTitle>
               <CardDescription>
                 Change your password here. After saving, you&apos;ll be logged
                 out.
@@ -70,7 +70,7 @@ const Login = () => {
               </div>
             </CardContent>
             <CardFooter>
-              <Button>Save password</Button>
+              <Button>Login</Button>
             </CardFooter>
           </Card>
         </TabsContent>
